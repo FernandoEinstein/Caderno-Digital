@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuitos digitais</title>
+    <link rel="stylesheet" type="text/css" href="style.css"
+
+</head>
+<body> 
+    <section>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="portifolio.html">Portifólio</a></li>
+                <li><a href="caderno_digital.html">Caderno Digital</a></li>
+            </ul>
+        </nav>
+    </section>
+   <h1>Ligações de protoboard NAND, NOR, XNOR e XOR</h1> 
+   <h1>## Aprofundando as Conexões de Comp portas lógicas em Protoboard: NAND, NOR, XOR e XNOR</h1>
+
+<h2>**Introdução:**</h2>
+
+<p>As portas lógicas NAND, NOR, XOR e XNOR são componentes eletrônicos fundamentais na construção de circuitos digitais. Usando um protoboard, você pode montar estes circuitos e visualizar seu funcionamento. Este guia aprofunda as conexões e fornece exemplos práticos para cada porta.</p>
+
+<h2>**Materiais:**</h2>
+
+<p>* Protoboard</p>
+<p>* Cabos de jumper</p>
+<p>* Resistores (opcional, dependendo do circuito)</p>
+<p>* Fontes de alimentação (pilhas AA com suporte ou fonte DC)</p>
+<p>* LEDs (opcional, para visualizar a saída)</p>
+<p>* Circuitos integrados (CIs) com as portas lógicas desejadas (ex: 74LS00 para NAND, 74LS02 para NOR, 74LS86 para XOR/XNOR)</p>
+
+<h2>**Datasheets:**</h2>
+
+<p>É crucial consultar o datasheet do CI específico para obter informações precisas sobre:</p>
+
+<p>* **Função de cada pino:** Identifique os pinos de alimentação (VCC e GND), entradas e saída.</p>
+<p>* **Tensões de operação:** Verifique as tensões recomendadas para VCC e as tolerâncias permitidas.</p>
+<p>* **Correntes máximas:** Tenha cuidado para não exceder os limites de corrente nos pinos do CI.</p>
+<p>* **Tabelas verdade:** Compreenda as relações entre entradas e saída para cada porta lógica.</p>
+
+<h2>**Conexões Detalhadas:**</h2>
+
+<h2>**NAND:**</h2>
+
+<p>* **Entradas:** Conecte as entradas A e B do CI a fontes de tensão (5V ou 3.3V) para representar "1" (high) ou "0" (low) ou a outros circuitos.</p>
+<p>* **Resistores de entrada:** Utilize resistores em série com as entradas para limitar a corrente, especialmente se conectar diretamente a fontes de alimentação. O valor ideal depende do circuito específico.</p>
+<p>* **Saída:** Conecte o pino de saída do CI a um LED (com resistor em série para limitar a corrente) ou a outro circuito para observar o resultado da operação NAND.</p>
+
+<h2>**Exemplo 1: Inverter um sinal:**</h2>
+
+<p>* Conecte a entrada A do CI à fonte de alimentação (5V ou 3.3V) para representar "1".</p>
+<p>* Ligue a entrada B ao GND para representar "0".</p>
+<p>* A saída do CI estará em "0" (low), invertendo o sinal de entrada A.</p>
+
+<h2>**Exemplo 2: AND Gate:**</h2>
+
+<p>* Conecte as entradas A e B do CI a fontes de tensão (5V ou 3.3V) para representar "1".</p>
+<p>* A saída do CI só estará em "1" (high) se ambas as entradas estiverem em "1" (high).</p>
+
+<h2>**NOR:**</h2>
+
+<p>* **Entradas:** Conecte as entradas A e B do CI a fontes de tensão (5V ou 3.3V) para representar "1" (high) ou "0" (low) ou a outros circuitos.</p>
+<p>* **Resistores de entrada:** Utilize resistores em série com as entradas para limitar a corrente, especialmente se conectar diretamente a fontes de alimentação. O valor ideal depende do circuito específico.</p>
+<p>* **Saída:** Conecte o pino de saída do CI a um LED (com resistor em série para limitar a corrente) ou a outro circuito para observar o resultado da operação NOR.</p>
+
+<h2>**Exemplo 1: Inverter um sinal:**</h2>
+
+<p>* Conecte a entrada A do CI à fonte de alimentação (5V ou 3.3V) para representar "1".</p>
+<p>* Ligue a entrada B ao GND para representar "0".</p>
+<p>* A saída do CI estará em "1" (high), invertendo o sinal de entrada A.</p>
+
+<h2>**Exemplo 2: OR Gate:**</h2>
+
+<p>* Conecte uma das entradas A ou B do CI à fonte de alimentação (5V ou 3.3V) para representar "1".
+<p>* A saída do CI estará em "1" (high) se qualquer uma das entradas (A ou B) estiver em "1" (high).
+
+<h2>**XOR:**</h2>
+
+<p>* **Entradas:** Conecte as entradas A e B do CI a fontes de tensão (5V ou 3.3V) para representar "1" (high) ou "0" (low) ou a outros circuitos.</p>
+<p>* **Resistores de entrada:** Utilize resistores em série com as entradas para limitar a corrente, especialmente se conectar diretamente a fontes de alimentação. O valor ideal depende do circuito específico.</p>
+<p>* **Saída:** Conecte o pino de saída do CI a um LED (com resistor em série para limitar a corrente) ou a outro circuito para observar o resultado da operação XOR.</p>
+
+<h2>**Exemplo: Comparador de bits:**</h2>
+
+<p>* Conecte as entradas A e B do CI a dois circuitos digitais diferentes.</p>
+<p>* A saída do CI estará em "1"</p>
+
+<footer>
+    <p>© Fernando LU©AS</p>
+    <p>2ª Série (2024)</p> 
+    <p>Itinerário de Robótica</p>   
+ </footer>
